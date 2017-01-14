@@ -558,6 +558,13 @@
       "purpose": "Use of multiple reverse properties",
       "input": "expand-0078-in.jsonld",
       "expect": "expand-0078-out.jsonld"
+    }, {
+      "@id": "#t0079",
+      "@type": ["jld:PositiveEvaluationTest", "jld:ExpandTest"],
+      "name": "simple string @context",
+      "purpose": "Test jsonld.js timeout problem",
+      "input": "expand-0079-in.jsonld",
+      "expect": "expand-0079-out.jsonld"
     }
   ]
 }
